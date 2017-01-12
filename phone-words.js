@@ -20,12 +20,9 @@ function makePhoneWords(inputNumber) {
     9: ['W', 'X', 'Y']
   };
 
-  var count = 0;
-
   function recursiveAnswer (prefix, currentSlot) {
     if (currentSlot === inputNumber.length) {
       console.log(prefix);
-      count++;
       return '';
     }
 
@@ -36,8 +33,6 @@ function makePhoneWords(inputNumber) {
   }
 
   recursiveAnswer('', 0);
-  console.log(count);
-
 }
 
 
