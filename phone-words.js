@@ -35,17 +35,6 @@ function makePhoneWords(inputNumber) {
   recursiveAnswer('', 0);
 }
 
-
-
-// Test Cases
-
-// for (var i = 0; i < inputArgs.length; i++) {
-//   console.log(makePhoneWords(inputArgs[i]));
-// }
-
-// improper input
-makePhoneWords(1998794);
-makePhoneWords(2028794);
-makePhoneWords(128794);
-
-makePhoneWords(2559399);
+for (var i = 0; i < inputArgs.length; i++) {
+  makePhoneWords(inputArgs[i]);
+}
